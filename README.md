@@ -11,4 +11,4 @@ I used custom python and bash codes (**extract_longest_proteins_all.sh** ; **lis
 The resulting filtered proteomes were used as inputs to Orthofinder.
 
 
-![Phyllobates](IMG_5056.jpg =250x250)
+![Phyllobates](IMG_5056.jpg | width=100)
