@@ -5,7 +5,7 @@ This repository contains code used to assess and compare publicly available whol
 
 Amphibian proteomes were downloaded from NCBI using ncbi-datasets. I downloaded proteomes from reference genomes for all amphibians with annotations with the following code:
 
-datasets download genome taxon amphibia --reference --include protein,gtf,cds --annotated
+> datasets download genome taxon amphibia --reference --include protein,gtf,cds --annotated
 
 By default, NCBI generates an individual folder per species labeled with their accession numbers.
 
