@@ -1,3 +1,4 @@
+
 This repository contains code used to assess and compare publicly available whole genome sequences.
 
 Amphibian proteomes were downloaded from NCBI using ncbi-datasets. I downloaded proteomes from reference genomes for all amphibians with annotations with the following code:
@@ -10,5 +11,6 @@ I used custom python and bash codes (**extract_longest_proteins_all.sh** ; **lis
 
 The resulting filtered proteomes were used as inputs to Orthofinder.
 
-
-![Phyllobates](IMG_5056.jpg | width=100)
+<p align="center">
+<img width="200" height="280" src="IMG_5056.jpg">
+</p>
