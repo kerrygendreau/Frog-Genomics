@@ -7,10 +7,10 @@ for dir in GC*; do
     cd "$dir" || exit
 
     # Run Python script to extract longest proteins per gene
-    python3 ../list_longest_protein.py genomic.gtf longest_proteins_per_gene.tsv
+    python3 /scratch/kgendreau/Snake_Orthofinder/list_longest_protein.py genomic.gtf longest_proteins_per_gene.tsv
 
     # Run Python script to extract longest protein sequences
-    python3 ../extract_proteins.py protein.faa longest_proteins_per_gene.tsv longest_proteins.faa
+    python3 /scratch/kgendreau/Snake_Orthofinder/extract_proteins.py protein.faa longest_proteins_per_gene.tsv genomic.gtf
 
     cd ..
   fi
