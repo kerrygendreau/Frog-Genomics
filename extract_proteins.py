@@ -20,11 +20,11 @@ gtf_file = sys.argv[3]
 
 genome_build = get_genome_build(gtf_file)
 if genome_build is None:
-    print(f"Warning: genome-build not found in {gtf_file}, using default name")
+    print("Warning: genome-build not found in {gtf_file}, using default name")
     genome_build = "unknown_genome"
 
-output_fasta = f"longest_proteins_{genome_build}.faa"
-print(f"Output FASTA will be: {output_fasta}")
+output_fasta = "longest_proteins_{genome_build}.faa"
+print("Output FASTA will be: {output_fasta}")
 
 protein_ids_to_keep = set()
 with open(longest_proteins_tsv) as fin:
@@ -33,7 +33,7 @@ with open(longest_proteins_tsv) as fin:
         gene_id, protein_id, transcript_id, total_len = line.strip().split('\t')
         protein_ids_to_keep.add(protein_id)
 
-print(f"Extracting {len(protein_ids_to_keep)} protein sequences...")
+print("Extracting {len(protein_ids_to_keep)} protein sequences...")
 
 with open(output_fasta, "w") as fout:
     for record in SeqIO.parse(proteins_fasta, "fasta"):
@@ -43,4 +43,4 @@ with open(output_fasta, "w") as fout:
             record.description = ""
             SeqIO.write(record, fout, "fasta")
 
-print(f"Extraction and renaming done: {output_fasta}")
+print("Extraction and renaming done: {output_fasta}")
