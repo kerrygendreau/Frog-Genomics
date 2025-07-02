@@ -38,4 +38,9 @@ print(f"Extracting {len(protein_ids_to_keep)} protein sequences...")
 with open(output_fasta, "w") as fout:
     for record in SeqIO.parse(proteins_fasta, "fasta"):
         prot_id = record.id.split()[0]
-        if prot_id in protein_
+        if prot_id in protein_ids_to_keep:
+            record.id = prot_id
+            record.description = ""
+            SeqIO.write(record, fout, "fasta")
+
+print(f"Extraction and renaming done: {output_fasta}")
