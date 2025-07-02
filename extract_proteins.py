@@ -23,7 +23,7 @@ if genome_build is None:
     print(f"Warning: genome-build not found in {gtf_file}, using default name")
     genome_build = "unknown_genome"
 
-output_fasta = f"longest_proteins_{genome_build}.faa"
+output_fasta = f"longest_proteins.faa"
 print(f"Output FASTA will be: {output_fasta}")
 
 protein_ids_to_keep = set()
