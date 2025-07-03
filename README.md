@@ -18,5 +18,5 @@ I used custom python and bash codes: [**bash loop to extract longest proteins**]
 The resulting filtered proteomes were used as inputs to Orthofinder.
 
 <p align="center">
-<img width="200" height="280" src="IMG_5056.jpg">
+<img width="200" height="280" src="IMG_3959.jpg">
 </p>
