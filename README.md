@@ -8,6 +8,14 @@ This repository contains code used to assess and compare publicly available whol
 
 # Assessing Genome Quality
 
+We used Merqury for kmer based evaluation of assembly quality. While the *Dendrobates tinctorius* genome has a high number of kmers mapping only once to the genome, many of the *Allobates femoralis* kmers present in the PacBio reads do not map to the genome assembly.
+
+<p align="center">
+  <img src="Dendrobates-merqury-out.GCF_039654945.1_ASM3965494v1_genomic.fna.gz.spectra-cn.fl.png" width="45%" />
+  <img src="Allobates_merquery_orig_.fl.png" width="45%" />
+</p>
+
+
 # Filling Gaps with SAMBA
 
 # Preparing Proteomes for Orthofinder
