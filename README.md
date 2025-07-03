@@ -1,6 +1,10 @@
 
 This repository contains code used to assess and compare publicly available whole genome sequences.
 
+# Assessing Genome Quality
+
+# Filling Gaps with SAMBA
+
 # Preparing Proteomes for Orthofinder
 
 Amphibian proteomes were downloaded from NCBI using ncbi-datasets. I downloaded proteomes from reference genomes for all amphibians with annotations with the following code:
