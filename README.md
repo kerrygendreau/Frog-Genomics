@@ -1,6 +1,11 @@
 
 This repository contains code used to assess and compare publicly available whole genome sequences.
 
+<p align="center">
+<img width="200" height="280" src="IMG_3959.jpg">
+</p>
+
+
 # Assessing Genome Quality
 
 # Filling Gaps with SAMBA
@@ -17,6 +22,3 @@ I used custom python and bash codes: [**bash loop to extract longest proteins**]
 
 The resulting filtered proteomes were used as inputs to Orthofinder.
 
-<p align="center">
-<img width="200" height="280" src="IMG_3959.jpg">
-</p>
