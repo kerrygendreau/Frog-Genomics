@@ -16,6 +16,18 @@ We used Merqury for kmer based evaluation of assembly quality. While the *Dendro
 </p>
 
 
+
+Furthermore, the estimated error rates are much higher for the *Allobates* assembly.
+
+
+| Species    | Error Rate   | QV Phred |
+| -------- | ------- | ------- |
+| *Allobates femoralis*  | 3.22e-4  | 34.9   |
+| *Dendrobates tinctorius* | 2.14e-7  |  66.7  |
+
+
+I will attempt to improve the *Allobates* assembly with gap filling and polishing.
+
 # Filling Gaps with SAMBA
 
 # Preparing Proteomes for Orthofinder
