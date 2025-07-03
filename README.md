@@ -8,7 +8,7 @@ This repository contains code used to assess and compare publicly available whol
 
 # Assessing Genome Quality
 
-We used Merqury for kmer based evaluation of assembly quality. While the *Dendrobates tinctorius* genome has a high number of kmers mapping only once to the genome, many of the *Allobates femoralis* kmers present in the PacBio reads do not map to the genome assembly.
+We used [Merqury](https://github.com/marbl/merqury) for kmer based evaluation of assembly quality. While the *Dendrobates tinctorius* genome assembly [NCBI RefSeq assembly GCF_039654945.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_039654945.1/) has a high number of kmers mapping only once to the genome, many of the kmers present in the PacBio reads used to produce the *Allobates femoralis* assembly [NCBI submitted assembly GCA_033576535.1](https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_033576535.1/) do not map to the genome assembly.
 
 <p align="center">
   <img src="Dendrobates-merqury-out.GCF_039654945.1_ASM3965494v1_genomic.fna.gz.spectra-cn.fl.png" width="45%" />
