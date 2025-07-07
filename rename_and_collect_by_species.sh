@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+#Run this in the directory with your GC* folders
 set -e
 
 jsonl="assembly_data_report.jsonl"
