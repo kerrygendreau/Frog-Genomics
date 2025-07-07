@@ -1,6 +1,8 @@
 #!/bin/bash
 # Run this in the parent directory containing all GCA_* folders
 
+
+# Either run this in the same directory as the genome files or write in the full path in front of "GC*"
 for dir in GC*; do
   if [ -d "$dir" ]; then
     echo "Processing $dir"
