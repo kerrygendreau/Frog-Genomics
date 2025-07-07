@@ -45,7 +45,7 @@ I used custom python and bash codes:
 
 In order to run the bash code, you need to have both of the python codes in the same folder. You also need to have Biopython installed and loaded.
 
-I then renamed the files by species [**bash loop to rename species**](rename_and_collect_by_species.sh) ; [**python code to rename species referencing the NCBI json report**](extract_accession_to_species.py).
+I then renamed the files by species and put them all in a shared folder to give as an input to Orthofinder. [**bash loop to rename species**](rename_and_collect_by_species.sh) ; [**python code to rename species referencing the NCBI json report**](extract_accession_to_species.py).
 
 The resulting filtered proteomes were used as inputs to Orthofinder.
 
